@@ -1,0 +1,16 @@
+# _config.yml
+
+# CS-499 ePortfolio
+
+# Theme
+theme: minima
+  skin: dark
+
+# Title
+title: Nicolas Valles - Computer Science Portfolio SNHU
+
+# Description
+description: Final Capstone Project and ePortfolio
+
+exclude:
+  - README.md
