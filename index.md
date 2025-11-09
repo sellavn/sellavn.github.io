@@ -11,7 +11,7 @@ This site is currently under construction and will be updated throughout the cou
 
 ---
 
-### [View My ePortfolio Repository](https://github.com/sellavn/CS-499-Capstone-Project)
+### [View My Capstone Project Repository](https://github.com/sellavn/CS-499-Capstone-Project)
 
 ---
 
