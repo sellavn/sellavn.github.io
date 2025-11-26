@@ -21,3 +21,21 @@ Here is the informal code review for my CS 499 capstone project. In this video, 
 
 ---
 
+## Milestone 2: Enhancement One - Software Engineering
+
+* **Artifact:** CS-300 Project 2 (Course Planner in C++)
+* **Enhancement:** Python CLI Tool
+
+Enhancement One transforms a basic C++ course planning application into a professional Python command-line interface (CLI) tool. The enhancement demonstrates modern software engineering practices including:
+
+- **Modular Architecture:** Separation of concerns across multiple modules (CLI, course logic, data models, configuration)
+- **CLI Design:** `argparse` interface with subcommands (`load`, `list`, `search`, `clear`)
+- **Configuration Management:** External config files for flexible deployment
+- **Data Persistence:** `pickle` based caching for session continuity
+- **Type Safety:** Comprehensive type hints and dataclasses
+- **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux
+
+![Enhancement One running on macOS](/images/enhancement-one.png)
+
+[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-one) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%201%20Narrative%20Valles.docx)
+
