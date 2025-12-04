@@ -39,3 +39,21 @@ Enhancement One transforms a basic C++ course planning application into a profes
 
 [View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-one) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%201%20Narrative%20Valles.docx)
 
+---
+
+## Milestone 3: Enhancement Two - Algorithms
+
+* **Artifact:** CS-300 Project Two (Original: C++)
+* **Enhancement:** Advanced Data Structures & Algorithm Optimization
+
+For the Algorithms and Data Structure category, I built on the previous enhancement which used the Course Planner project from CS-300. The goal of this enhancement was to optimize the application's performance and reliability by implementing advanced algorithmic concepts that were not addressed in the previous enhancement.
+
+The enhancements focused on two key areas:
+1.  **Optimization:** Replaced inefficient linear searches ($O(n)$) with a Hash Map indexing system ($O(1)$).
+2.  **Graph Traversal:** Implemented a Depth-First Search (DFS) algorithm to detect circular dependencies (cycles) in the course prerequisite graph - implemented via the `validate` command.
+
+I also created a custom benchmarking script to quantify the performance improvements, demonstrating a performance increase on small datasets with massive scalability projected for larger datasets.
+
+![Enhancement Two running on Windows](/images/enhancement-two.png)
+
+[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-two) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative]([https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%202%20Narrative%20Valles%20.docx])
