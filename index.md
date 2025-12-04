@@ -49,7 +49,7 @@ Enhancement One transforms a basic C++ course planning application into a profes
 For the Algorithms and Data Structure category, I built on the previous enhancement which used the Course Planner project from CS-300. The goal of this enhancement was to optimize the application's performance and reliability by implementing advanced algorithmic concepts that were not addressed in the previous enhancement.
 
 The enhancements focused on two key areas:
-1.  **Optimization:** Replaced inefficient linear searches ($O(n)$) with a Hash Map indexing system ($O(1)$).
+1.  **Optimization:** Replaced inefficient linear searches `O(n)` with a Hash Map indexing system `O(1)`.
 2.  **Graph Traversal:** Implemented a Depth-First Search (DFS) algorithm to detect circular dependencies (cycles) in the course prerequisite graph - implemented via the `validate` command.
 
 I also created a custom benchmarking script to quantify the performance improvements, demonstrating a performance increase on small datasets with massive scalability projected for larger datasets.
