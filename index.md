@@ -60,6 +60,7 @@ Together, these artifacts showcase the full development lifecycle: architectural
 
 My professional focus centers on infrastructure automation and Cloud Engineering, where the skills demonstrated in this capstone: Python scripting, database optimization, and security-conscious development. All of these have direct application within the industry. Professional distinction lies not just in implementation, but in a holistic approach to software development: prioritizing user experience, anticipating security threats, planning for scalability, and maintaining robust documentation. This portfolio evidences the ability to design, implement, optimize, and secure real-world systems, transforming academic theory into production-ready software solutions.
 
+---
 
 ### [View My Capstone Project Repository](https://github.com/sellavn/CS-499-Capstone-Project)
 
