@@ -5,7 +5,6 @@ title: Home
 
 ## Welcome to my ePortfolio for CS 499. 
 
-This site is currently under construction and will be updated throughout the course with my project, links to previous repos, narratives, and overall professional self-assessment.
 
 ---
 
@@ -37,7 +36,7 @@ Enhancement One transforms a basic C++ course planning application into a profes
 
 ![Enhancement One running on macOS](/images/enhancement-one.png)
 
-[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-one) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%201%20Narrative%20Valles.docx)
+[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-one) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%201%20Narrative%20Valles.md)
 
 ---
 
@@ -56,4 +55,26 @@ I also created a custom benchmarking script to quantify the performance improvem
 
 ![Enhancement Two running on Windows](/images/enhancement-two.png)
 
-[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-two) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative]([https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%202%20Narrative%20Valles%20.docx])
+[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-two) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-300) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%202%20Narrative%20Valles.md)
+
+## Milestone 4: Enhancement Three - Databases
+
+* **Artifact:** CS-300 Course Planner (Original: C++) & CS-360 Project (SQLite Baseline)
+* **Enhancement:** Production-Ready SQLite Integration
+
+For the Databases category, I enhanced the Course Planner to transition from volatile memory/file-based storage (Pickle/CSV) to a persistent SQLite relational database. While I added on the previous two enhancements which used CS-300 Project Two as an artifact - for Enhancement Three specifically, I used CS-360 Project 3, specifically the SQLite database component from that project to serve as a baseline. 
+
+The enhancements focused on key areas such as:
+
+- **ACID Compliance:** Transaction management with automatic rollback on errors.
+- **Security:** Full implementation of parameterized queries to prevent SQL injection.
+- **Normalization:** Implementation of a junction table for many-to-many course prerequisites.
+
+Later in the following modules, I implemented my stretch goals in Enhancement Three so it serves as the definitive version of the project. The two stretch goals I implemented are:
+
+1.  **Recursive Common Table Expressions (CTE):** A custom SQL query that analyzes the complete prerequisite chain for any course, finding all direct and indirect dependencies.
+2.  **System Logging:** A dedicated logging system (`course_planner.log`) configured via `config.ini` to track operations and debugging data.
+
+![Enhancement Three running on Linux(Debian)]()
+
+[View Enhanced Code on GitHub](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/enhancement-three) | [View Original Artifact](https://github.com/sellavn/CS-499-Capstone-Project/tree/main/original-artifacts/CS-360) | [View Full Narrative](https://github.com/sellavn/CS-499-Capstone-Project/blob/main/docs/Category%203%20Narrative%20Valles.md)
