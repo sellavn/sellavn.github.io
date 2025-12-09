@@ -2,35 +2,35 @@
 layout: default
 title: Home
 ---
-# **Professional Self-Assessment**
+# Professional Self-Assessment
 
-## **Introduction**
+## Introduction
 
-The completion of the Computer Science program at Southern New Hampshire University marks a pivotal evolution in technical capability. Supplementing academic coursework with concurrent full-time experience as a Tech Support Technician, this portfolio demonstrates the readiness to transition into a professional Cloud Engineering role. The included capstone project represents the synthesis of this journey: evolving a basic C++ course planner into a production-ready Python application complete with SQLite integration. This work demonstrates proficiency across software engineering, algorithmic optimization, and database management, all underpinned by a rigorous security-first mindset.
+The completion of the Computer Science program at Southern New Hampshire University marks a pivotal evolution in my technical capability. Supplementing academic coursework with concurrent full-time experience as a Tech Support Technician, this portfolio demonstrates my readiness to transition into a professional Cloud Engineering role. The included capstone project represents the synthesis of this journey: evolving a basic C++ course planner into a production-ready Python application complete with SQLite integration. This work demonstrates proficiency across software engineering, algorithmic optimization, and database management, all underpinned by a rigorous security-first mindset.
 
 ---
 
-## **Professional Skills Development**
+## Professional Skills Development
 
-### **Collaboration & Communication**
+### Collaboration & Communication
 
 Throughout the program, I learned that software development is fundamentally collaborative. Classes such as **CS-250 Software Development Lifecycle** taught me Agile methodologies and stakeholder communication, while **CS-255 System Analysis** reinforced the collaborative planning and execution that occurs throughout the SDLC. The capstone's modular architecture and comprehensive documentation reflect this collaborative mindset, code is written to be understood, critiqued, forked and maintained by others.
 
 My enhancement narratives exemplify effective technical communication. Rather than listing changes, each explains the problem, approach, challenges, and lessons learned, explaining in a manner where both technical and non-technical audiences are kept in mind.
 
-### **Algorithms & Data Structures**
+### Algorithms & Data Structures
 
 CS-300 Data Structures and Algorithms provided the foundation for the majority of the capstone, but the key difference is where I replaced O(n) linear search in the original project with O(1) hash map lookups and implemented DFS for cycle detection. The performance benchmarks showed modest gains at small scale (1.9x speedup with 4 courses) but projected 1000x advantages at 4,000 courses, proving that algorithm selection matters for scalability.
 
 The DFS implementation uses three sets to track visited nodes, current recursion path, and reported cycles. This serves to prevent infinite loops and duplicate errors \- something that was learned through making mistakes through previous iterations. This attention when testing to edge cases separates working code from production-ready code.
 
-### **Software Engineering & Databases**
+### Software Engineering & Databases
 
 The program emphasized principles over technologies \- modularity, separation of concerns. Enhancement One transformed a monolithic C++ file into eight Python modules, each with a single responsibility. Enhancement Three integrated SQLite with proper normalization, foreign key constraints, and strategic indexes, going beyond basic CRUD to implement recursive CTEs for prerequisite chain analysis.
 
 The ETL pipeline that migrates CSV to SQLite demonstrates that production systems require robust data migration strategies with transaction safety and error handling, not just schema design.
 
-### **Security Mindset**
+### Security Mindset
 
 CS-305 Software Security taught me to consider vulnerabilities during initial design, not as afterthoughts \- as well as how devastating the effects can be in a multitude of ways if left unchecked. The capstone reflects this throughout, every database query uses parameterized statements, all input is validated, and security audit documentation proves compliance systematically.
 
@@ -38,30 +38,28 @@ What distinguishes a security mindset from awareness is anticipating adversarial
 
 ---
 
-## **Portfolio Artifacts**
+## Portfolio Artifacts
 
-### **Enhancement One: Software Engineering & Design**
+### Enhancement One: Software Engineering & Design
 
 Transformed a monolithic C++ console app into a professional Python CLI with modular architecture, argparse subcommands, configuration management, and data persistence. Demonstrates clean interfaces, maintainable organization, and user experience prioritization.
 
-### **Enhancement Two: Algorithms & Data Structures**
+### Enhancement Two: Algorithms & Data Structures
 
 Replaced linear search with hash map indexing (O(1) vs O(n)) and implemented DFS cycle detection with comprehensive edge case handling. Includes performance benchmarking showing projected 1000x speedup at scale.
 
-### **Enhancement Three: Databases**
+### Enhancement Three: Databases
 
 Integrated SQLite with normalized schema (3NF), transaction-based migration, 100% parameterized queries, and advanced SQL (recursive CTEs for prerequisite chains). Demonstrates database design, query optimization, and security-conscious development.
 
-### **Cohesion**
+### Cohesion
 
 Together, these artifacts showcase the full development lifecycle: architectural design from the code review, performance optimization throughout the milestones, and data persistence and security in the latter half of the project. The progression mirrors real-world software maturation from prototype to production.
 
----
-
-## **Career Readiness**
+### Career Readiness
 
 My professional focus centers on infrastructure automation and Cloud Engineering, where the skills demonstrated in this capstone: Python scripting, database optimization, and security-conscious development. All of these have direct application within the industry. Professional distinction lies not just in implementation, but in a holistic approach to software development: prioritizing user experience, anticipating security threats, planning for scalability, and maintaining robust documentation. This portfolio evidences the ability to design, implement, optimize, and secure real-world systems, transforming academic theory into production-ready software solutions.
----
+
 
 ### [View My Capstone Project Repository](https://github.com/sellavn/CS-499-Capstone-Project)
 
